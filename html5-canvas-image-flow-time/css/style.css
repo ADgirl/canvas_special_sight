@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  background-color: #000;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
